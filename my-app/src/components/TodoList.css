@@ -1,0 +1,37 @@
+ul {
+    list-style: none;
+    width: 100%;
+    overflow: auto;
+  }
+  
+  li {
+    margin-left: -40px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(0,0,0,0.05);
+  }
+  li:nth-child(even) {
+    background-color: #f8f9fa;
+  }
+
+  .deleteBtn{
+    padding: 0px;
+    width:25px;
+    height:25px;
+    background-color: rgba(0,0,0,0);
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgba(224,106,140,1);
+    border: none;
+    margin-left: 5px;
+  }
+  .deleteBtn:hover {
+    cursor: pointer;
+    background-color: rgba(0,0,0,0);
+    color: rgba(224,106,140,0.5);
+  }

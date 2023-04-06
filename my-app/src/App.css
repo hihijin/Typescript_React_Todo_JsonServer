@@ -1,0 +1,28 @@
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todoBox{
+    background-color: #F8DBE4;
+    width:400px;
+    height: 620px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 0px 20px 0px 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.todoLength{
+    margin-top: 15px;
+    font-weight: bold;
+    font-size:18px;
+}
+.num{
+    color: #F55381;
+}
